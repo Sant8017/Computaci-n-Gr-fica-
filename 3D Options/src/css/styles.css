@@ -1,0 +1,46 @@
+body{
+    background-color: azure !important;
+}
+
+/* Estilos para los botones personalizados */
+.custom-btn {
+    background-color: rgb(240, 236, 139); /* Cambia este color al que desees */
+    color: rgb(43, 39, 38); /* Color del texto en el botón */
+   
+}
+
+/* Cambiar el color cuando el botón se presiona o se enfoca */
+.custom-btn:hover {
+    background-color: rgb(55, 1, 131); /* Cambia este color al que desees */
+    color: white;
+    border-color: rgb(255, 255, 255); /* Color del borde del botón cuando se enfoca o se presiona */
+}
+
+/* Estilo base del botón */
+.borrar-btn {
+    padding: 0;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  /* Estilo de la imagen */
+  .borrar-btn img {
+    width: 30px;
+    height: 30px;
+  }
+  
+
+  .borrar-btn:hover {
+    background-color: rgb(168, 0, 0);
+  }
+  
+  /* Estilo adicional si deseas */
+  .custom-btn:hover {
+    background-color: #b5b25c; /* Cambio de color al pasar el cursor */
+    color: black;
+    border: #b5b25c;
+  }
+  
